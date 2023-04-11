@@ -1,4 +1,3 @@
-# ZubovAnvarovFitnessClub
 <b> Алишер Анваров 3-ИСП9-19ВБ</b>
 <br>
 <b> БД </b>
@@ -44,4 +43,3 @@
 <br>
 ![image](https://user-images.githubusercontent.com/121236043/231160275-c8492db2-f443-48e4-b07f-171a9cc59d10.png)
 <br>
-
