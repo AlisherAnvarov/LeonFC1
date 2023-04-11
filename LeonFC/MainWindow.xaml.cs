@@ -22,7 +22,7 @@ namespace LeonFC
     {
         public MainWindow()
         {
-            InitializeComponent();
+         
         }
     }
 }

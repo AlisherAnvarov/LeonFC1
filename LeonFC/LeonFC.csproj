@@ -66,6 +66,7 @@
     </ApplicationDefinition>
     <Compile Include="ClassHelper\CartClass.cs" />
     <Compile Include="ClassHelper\EFClass.cs" />
+    <Compile Include="ClassHelper\UserClass.cs" />
     <Compile Include="DataBase\Client.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -111,6 +112,7 @@
     <Compile Include="DataBase\Trainer.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="DataBase\User.cs" />
     <Compile Include="Windows\AddEditServiceWindow.xaml.cs">
       <DependentUpon>AddEditServiceWindow.xaml</DependentUpon>
     </Compile>
@@ -119,9 +121,6 @@
     </Compile>
     <Compile Include="Windows\CartWindow.xaml.cs">
       <DependentUpon>CartWindow.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\ClientList.xaml.cs">
-      <DependentUpon>ClientList.xaml</DependentUpon>
     </Compile>
     <Compile Include="Windows\RegistrationClientWindow.xaml.cs">
       <DependentUpon>RegistrationClientWindow.xaml</DependentUpon>
@@ -150,10 +149,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Windows\CartWindow.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\ClientList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -219,10 +214,6 @@
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
-    <Resource Include="Resources\icons8-edit-64.png" />
-    <Resource Include="Resources\icons8-remove-50.png" />
-    <Resource Include="Resources\icons8-shopping-cart-30.png" />
-    <Content Include="Resources\shaigy.jpg" />
     <Resource Include="Resources\NullService.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
